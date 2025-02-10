@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* styles/globals.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+input,
+select,
+button {
+  margin: 10px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.job-listings {
+  margin-top: 20px;
+}
+
+.job-item {
+  margin-bottom: 10px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.job-item h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.job-item p {
+  margin: 5px 0 0;
+  color: #555;
+}
